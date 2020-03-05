@@ -46,12 +46,12 @@ const person = {
   },
 }
 
-console.log(person.getName())
-console.log(person.getEmployee_id()) 
-console.log(person.getAge())
-console.log(person.getGender())
-console.log(person.getCompany())
-console.log(person.getEmail())
+console.log(person.getName()) //Output : Mithra
+console.log(person.getEmployee_id()) //Output : 90033
+console.log(person.getAge()) //Output : 21
+console.log(person.getGender()) //Output : female
+console.log(person.getCompany()) //Output : Ducen IT
+console.log(person.getEmail()) //Output : mithraram.kumar@ducenit.com
 
 person.setName('A');
 person.setEmployee_id(90037);
@@ -60,21 +60,23 @@ person.setGender('Male');
 person.setCompany('Zoho');
 person.setEmail('aishwaryra.sekar@ducenit.com');
 
-console.log(person.getName())  
-console.log(person.getEmployee_id())  
-console.log(person.getAge())  
-console.log(person.getGender())  
-console.log(person.getCompany())  
-console.log(person.getEmail())  
+console.log(person.getName())  //Output : A
+console.log(person.getEmployee_id())  //Output : 90037
+console.log(person.getAge())  //Output : 22
+console.log(person.getGender())  //Output : Male
+console.log(person.getCompany())  //Output : Zoho
+console.log(person.getEmail())  //Output : aishwaryra.sekar@ducenit.com
 
 name = person.name;
 employee_id = person.employee_id;
+age = person.age;
 gender = person.gender;
 company = person.company;
 email = person.email;
 
-console.log('Name : ',name);
-console.log('Employee : ',employee_id);
-console.log('Age : ',age);
-console.log('Company : ',company);
-console.log('Email : ',email); 
+console.log('Name : ',name); //Output : Name : A
+console.log('Employee : ',employee_id); //Output : Employee : 90037
+console.log('Age : ',age); //Output : Age : 22
+console.log('Gender : ',gender) //Output : Gender : Male
+console.log('Company : ',company); //Output : Company : Zoho
+console.log('Email : ',email); //Output : Email : aishwaryra.sekar@ducenit.com
