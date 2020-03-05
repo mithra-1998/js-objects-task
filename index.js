@@ -46,8 +46,35 @@ const person = {
   },
 }
 
-console.log(person.getName()) //Output : Mithra
+console.log(person.getName())
+console.log(person.getEmployee_id()) 
+console.log(person.getAge())
+console.log(person.getGender())
+console.log(person.getCompany())
+console.log(person.getEmail())
+
+person.setName('A');
+person.setEmployee_id(90037);
 person.setAge(22);
-console.log(person.getAge())  //Output : 22
+person.setGender('Male');
+person.setCompany('Zoho');
+person.setEmail('aishwaryra.sekar@ducenit.com');
+
+console.log(person.getName())  
+console.log(person.getEmployee_id())  
+console.log(person.getAge())  
+console.log(person.getGender())  
+console.log(person.getCompany())  
+console.log(person.getEmail())  
+
+name = person.name;
+employee_id = person.employee_id;
+gender = person.gender;
+company = person.company;
 email = person.email;
-console.log('Email : ',email); //Output : Email : mithraram.kumar@ducenit.com
+
+console.log('Name : ',name);
+console.log('Employee : ',employee_id);
+console.log('Age : ',age);
+console.log('Company : ',company);
+console.log('Email : ',email); 
