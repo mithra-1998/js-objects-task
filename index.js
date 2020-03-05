@@ -1,4 +1,4 @@
-//Object creation with definition
+//Object creation with curly Braces
 const person = {
   name : 'Mithra',
   employee_id : 90033,
